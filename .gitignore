@@ -7,7 +7,7 @@
 !requirements.txt
 !README.md
 !.gitignore
-
+!example.py
 # 额外确保以下目录不被追踪
 models/
 *_output/

@@ -1,0 +1,18 @@
+# 忽略所有文件
+*
+
+# 只保留以下特定文件 (白名单模式)
+!whisper_cpp_wrapper.py
+!使用示例.py
+!requirements.txt
+!README.md
+!.gitignore
+
+# 额外确保以下目录不被追踪
+models/
+*_output/
+__pycache__/
+.venv/
+.idea/
+.vscode/
+*.DS_Store
